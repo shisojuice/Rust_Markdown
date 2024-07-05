@@ -1,0 +1,24 @@
+body {  
+  font-family: monospace;
+  padding: 5px;
+}
+#input_markdown {
+  max-height: 85vh;
+  max-width: 45vw;
+  min-height: 85vh;
+  min-width: 45vw;
+}
+#preview {
+  border: thick double black;
+  height: 85vh;
+  width: 45vw;
+  overflow: scroll;
+}
+.option_btn {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.main  {
+  display: flex;
+  gap:20px;
+}

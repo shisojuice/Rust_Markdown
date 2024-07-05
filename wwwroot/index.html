@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="MarkdownPreview" />
+  <title>MarkdownPreview</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+<h1>MarkdownPreview</h1>
+<div>※Save機能はありません。Copyするか、Mdファイルを<button id="dl_btn" class="option_btn">Download</button>してください。 </div>
+<label for="input_markdown">Markdown:</label>
+<div>
+  <button id="mi1_btn" class="option_btn">見出し1</button>
+  <button id="mi2_btn"  class="option_btn">見出し2</button>
+  <button id="mi3_btn"  class="option_btn">見出し3</button>
+  <button id="mi4_btn"  class="option_btn">見出し4</button>
+  <button id="italic_btn"  class="option_btn">イタリック</button>
+  <button id="futoji_btn"  class="option_btn">太字</button>
+  <button id="uti_btn"  class="option_btn">打消線</button>
+  <button id="link_btn"  class="option_btn">リンク</button>
+  <button id="list_btn"  class="option_btn">リスト</button>
+  <button id="gazo_btn"  class="option_btn">画像</button>
+</div>
+<div class="main">
+  <textarea id="input_markdown" autofocus autocomplete="off" spellcheck="false" ></textarea>
+  <div id="preview"></div>
+</div>
+<br/>
+<br/>
+<script type="module" src="./index.js"></script>
+</body>
+</html>
